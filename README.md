@@ -1,20 +1,26 @@
-About
-========
+# ScrollLabelView
 
 ScrollLabelView is scroll label UIView.
-iOS7 later.
 
-Usage
-========
+## Requirements
 
-Include the ScrollLabelView class in your project.
+- iOS7.1+
 
-```` objective-c
-// Bridging header file.
+## Install
+
+Include the PasswordDialogViewController class in your project.
+
+## Usage
+
+### Swift
+
+Bridging header file.
+
+``` objective-c
 #import "ScrollLabelView.h"
-````
+```
 
-```` swift
+``` swift
 @IBOutlet weak var scrollLabelView: ScrollLabelView!
 
 override func viewDidLoad() {
@@ -34,10 +40,9 @@ func didFinishSync() {
     self.scrollLabelView.finish({() -> Void in
     })
 }
-````
+```
 
-License
-========
+## License
 
 This ScrollLabelView is released under the MIT License.
 See [LICENSE](/LICENSE) for details.
